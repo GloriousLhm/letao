@@ -5,11 +5,69 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>首页</title>
+ <title>乐淘管理系统-首页</title>
+ <!-- 引入bootstrop样式 -->
+ <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+ <!-- 引入表单验证插件样式 -->
+ <link rel="stylesheet" href="lib/bootstrap-validator/css/bootstrapValidator.css">
+ <!-- 引入进度条插件样式 -->
+ <link rel="stylesheet" href="lib/nprogress/nprogress.css">
+ <!-- 引入自己的样式 -->
+ <link rel="stylesheet" href="css/commom.css">
 </head>
 
 <body>
- <p>这是首页内容</p>
+
+ <div class="lt_aside">
+
+  <div class="brand">
+   <a href="index.html">黑马十四期</a>
+  </div>
+
+  <div class="user">
+   <img src="images/yyqx.jpg" alt="">
+   <p>超级管理员</p>
+  </div>
+
+  <div class="nav">
+   <ul>
+    <li>
+     <a href="user.html">
+      <sapn class="glyphicon glyphicon-user"></sapn>
+      用户管理
+     </a>
+    </li>
+    <li>
+     <a href="user.html">
+      <sapn class="glyphicon glyphicon-list"></sapn>
+      分类管理
+     </a>
+     <div class="child">
+      <a href="first.html">一级分类</a>
+      <a href="second.html">二级分类</a>
+     </div>
+    </li>
+    <li>
+     <a href="product.html">
+      <sapn class="glyphicon glyphicon-tags"></sapn>
+      商品管理
+     </a>
+    </li>
+   </ul>
+  </div>
+ </div>
+
+
+
+ <div class="lt_main"></div>
+
+ <!-- 引入jq -->
+ <script src="lib/jquery/jquery.js"></script>
+ <script src="lib/bootstrap/js/bootstrap.js"></script>
+ <script src="lib/bootstrap-validator/js/bootstrapValidator.js"></script>
+ <script src="lib/nprogress/nprogress.js"></script>
+ <script src="js/common.js"></script>
+ <script src="js/index.js"></script>
 </body>
 
 </html>
